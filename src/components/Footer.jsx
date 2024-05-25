@@ -7,7 +7,7 @@ const Footer = () => {
 	const year = d.getFullYear();
 	return (
 		<div>
-			<footer className="footer footer-center p-5 bg-black rounded-badge text-primary-content">
+			<footer className="footer footer-center p-5 bg-black  text-primary-content">
 				<aside>
 					<Image src="/logo.png" alt="logo" width={100} height={100} />
 					<p className="font-bold">

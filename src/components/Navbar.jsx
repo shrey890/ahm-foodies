@@ -1,5 +1,5 @@
 "use client";
-import { Instagram, Youtube } from "lucide-react";
+import { Facebook, Instagram, Youtube } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
@@ -80,6 +80,9 @@ const Navbar = () => {
 					<a href="https://www.instagram.com/ahm_foodies/" target="_blank">
 						<Instagram />
 					</a>
+					{/* <a href="https://www.facebook.com/Ahm_foodies/" target="_blank">
+						<Facebook />
+					</a> */}
 					<a href="https://www.youtube.com/@Ahm_Foodies" target="_blank">
 						<Youtube />
 					</a>
