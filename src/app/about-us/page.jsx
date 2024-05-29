@@ -8,12 +8,18 @@ const AboutUs = () => {
 				About Us
 			</h2>
 			<div className="flex flex-col items-center justify-center">
-				<Image src="/about-us.svg" width={400} height={400} alt="about-us" />
-				<p className="p-5 md:p-10   ">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa
-					laudantium eius, obcaecati impedit nisi eaque, error necessitatibus
-					pariatur tempore, commodi reprehenderit molestias nemo adipisci vitae
-					debitis magni blanditiis ea deserunt.
+				{/* <Image src="/about-us.svg" width={400} height={400} alt="about-us" /> */}
+				<Image
+					src="/undraw_under.svg"
+					className="mt-10"
+					alt="image"
+					width={650}
+					height={650}
+				/>
+
+				<p className="p-5 md:p-10 text-4xl font-bold animate-bounce text-center mt-5   ">
+					This page is currently under construction, and the page content is
+					coming soon.
 				</p>
 			</div>
 		</section>

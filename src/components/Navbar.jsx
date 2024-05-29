@@ -33,7 +33,7 @@ const Navbar = () => {
 							<li>
 								<Link href="/">Home</Link>
 							</li>
-							<li>
+							{/* <li>
 								<a>Services</a>
 								<ul className="p-2">
 									<li>
@@ -43,7 +43,7 @@ const Navbar = () => {
 										<a>Submenu 2</a>
 									</li>
 								</ul>
-							</li>
+							</li> */}
 							<li>
 								<Link href="/about-us">About Us</Link>
 							</li>
@@ -58,7 +58,7 @@ const Navbar = () => {
 						<li>
 							<Link href="/">Home</Link>
 						</li>
-						<li>
+						{/* <li>
 							<details>
 								<summary>Services</summary>
 								<ul className="p-2">
@@ -70,7 +70,7 @@ const Navbar = () => {
 									</li>
 								</ul>
 							</details>
-						</li>
+						</li> */}
 						<li>
 							<Link href="/about-us">About Us</Link>
 						</li>
@@ -86,7 +86,7 @@ const Navbar = () => {
 					<a href="https://www.youtube.com/@Ahm_Foodies" target="_blank">
 						<Youtube />
 					</a>
-					<Link href="/contact-us" className="btn">
+					<Link href="/contact-us" className="btn ">
 						Contact Us
 					</Link>
 				</div>

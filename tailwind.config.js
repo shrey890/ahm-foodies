@@ -15,6 +15,6 @@ module.exports = {
     },
   },
   plugins: [
-    require('daisyui'),
+    require('daisyui', '@shrutibalasa/tailwind-grid-auto-fit'),
   ],
 };
