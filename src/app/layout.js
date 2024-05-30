@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <link rel="icon" href="/favicon.ico" sizes="any" />
-      <body className={ inter.className }>
+      <body className={ `${inter.className}  sm:pt-14 pt-16  ` }>
         <Navbar />
         <main>
           { children }

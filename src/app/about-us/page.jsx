@@ -3,7 +3,7 @@ import React from "react";
 
 const AboutUs = () => {
 	return (
-		<section className="h-screen">
+		<section className="min-h-screen">
 			<h2 className="text-3xl text-center permanent-marker-regular  md:text-5xl mt-5">
 				About Us
 			</h2>
@@ -11,7 +11,7 @@ const AboutUs = () => {
 				{/* <Image src="/about-us.svg" width={400} height={400} alt="about-us" /> */}
 				<Image
 					src="/undraw_under.svg"
-					className="mt-10"
+					className="mt-10 animate-pulse"
 					alt="image"
 					width={650}
 					height={650}
